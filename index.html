@@ -15,5 +15,13 @@
   </body>
   <script>
     // write code here
+    const button = document.querySelector("button");
+    const counter = document.querySelector("#counter");
+    let count = 0;
+
+    function increase(){
+      count += 1;
+      counter.innerText = count;
+    }
   </script>
 </html>

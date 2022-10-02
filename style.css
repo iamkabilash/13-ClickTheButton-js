@@ -23,6 +23,11 @@ button {
   border-color: transparent;
   font-size: large;
   box-shadow: 0;
+  cursor: pointer;
+}
+
+button:hover{
+  background-color: #3434b8;
 }
 
 button:active {
